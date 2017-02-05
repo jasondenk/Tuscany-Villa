@@ -1,0 +1,67 @@
+﻿body {
+}
+.container full-page {
+    background-color:blue;
+}
+
+/*GRID WORDING*/
+.wording {    
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    color:#fff;    
+}
+
+/*HEADER*/
+.header {
+    text-align:center;       
+}
+h1.container {
+    padding-bottom:0;
+    margin-bottom:0;
+}
+h2.container {
+    padding-top:0;
+    margin-top:0;
+}
+/*NAVBAR*/
+nav#navvy.navbar.navbar-static-top {
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#000000;  
+}
+#navvy a {
+    color:#000000;
+    
+}
+.navbarWording {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Button on navbar*/
+button.navbar-toggle {
+    border:1px solid #000000;
+}
+span.icon-bar {
+    border:1px solid #000000;
+}
+/*BIG PICTURES*/
+.container-fluid{
+    margin:0;
+    padding:0;
+    background-color:red;
+}
+
+/*SEEN ON...*/
+#last {
+    margin-top:5%;
+}
+
+
+
+
+
+
