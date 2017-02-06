@@ -1,45 +1,35 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css?family=Prompt');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+body {
+    
 }
-.container full-page {
-    background-color:blue;
-}
-
-/*GRID WORDING*/
-.wording {    
-    position: absolute;
-    top: 50%;
-    left: 50%;  
-    transform: translate(-50%, -50%);
-    color:#fff;    
-}
-
 /*HEADER*/
 .header {
-    text-align:center;       
+    text-align:center;   
+    background-color:#DDDDDD;
+    margin-top:0;
+    padding-top:0;    
 }
-h1.container {
+h1.top {
     padding-bottom:0;
     margin-bottom:0;
+    font-family:'Prompt', sans-serif;
 }
-h2.container {
-    padding-top:0;
+h1.bottom {
+    padding-top:0%;
     margin-top:0;
+    font-family: 'Marck Script', cursive;
 }
 /*NAVBAR*/
 nav#navvy.navbar.navbar-static-top {
     margin-top:0px;
     margin-bottom:0px;
     color:#000000;  
-}
-#navvy a {
-    color:#000000;
     
 }
-.navbarWording {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#navvy a {
+    color:#000000;   
+       
 }
 /*Button on navbar*/
 button.navbar-toggle {
@@ -48,17 +38,56 @@ button.navbar-toggle {
 span.icon-bar {
     border:1px solid #000000;
 }
-/*BIG PICTURES*/
-.container-fluid{
+/*big pictures*/
+.bigpictures {
     margin:0;
     padding:0;
-    background-color:red;
 }
 
-/*SEEN ON...*/
-#last {
-    margin-top:5%;
+
+/*GRID*/
+.wording {    
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    color:#fff;    
 }
+.main {
+    padding:0;
+    margin:0;
+}
+
+
+/*SEEN ON, last grid pic*/
+#last {
+    margin-top:30%;
+}
+.wording1 {    
+    position: absolute;
+    top:10%;
+    left: 50%;  
+    transform: translate(-50%);
+    color:black;    
+}
+
+
+/*FOOTER*/
+footer {
+    background-color:#E4E4E4;
+}
+#designed {
+    margin-top:10%;
+    text-align:center;    
+}
+
+#middleline {
+    position: absolute;
+    top:50%;     
+    transform: translate(-50%);
+    color:black;    
+}
+
 
 
 
